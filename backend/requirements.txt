@@ -1,0 +1,14 @@
+fastapi
+pydantic
+uvicorn
+aiofiles
+openai
+langchain
+langchain-community
+cohere
+chromadb
+qdrant-client
+groq
+pydantic-settings
+python-multipart
+pypdf
