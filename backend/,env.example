@@ -1,0 +1,28 @@
+# Distance Method for Vector Database
+VECTOR_DB_DISTANCE_METHOD = "cosine"
+
+VECTOR_DB_TYPE = "chroma" # fill in the type of vector database you are using
+
+# Vector Database Settings
+VECTOR_DB_PATH = "db/"
+
+# Chroma Database Settings
+CHROMA_METADATA = ""
+
+# Embedder Settings
+EMBEDDER_TYPE = "COHERE"                     # Options: OPENAI, COHERE, SENTENCE_TRANSFORMER
+EMBEDDER_API_KEY = "api_key_here" # Leave empty if using Hugging Face models
+HUGGINGFACE_MODEL = "sentence-transformers/all-mpnet-base-v2" # Leave empty if using Cohere
+EMBEDDER_MODEL_ID = "embed-english-v3.0"
+
+# Text Generator Settings
+GENERATOR_TYPE = "GROQ"                    # Options: GROQ, OPENAI
+GENERATOR_API_KEY = "api_key_here"
+MODEL_ID = "mixtral-8x7b-32768"    # Change if using a provider other than GROQ
+UPLOAD_DIR= "uploads"
+MAX_FILE_SIZE = 10485760  # 10MB
+ALLOWED_FILE_TYPES = ["application/pdf"]
+PDF_STORING_PATH = "pdf_store"
+
+MAX_OUTPUT_TOKENS = 1000
+TEMPERATURE = 0.7
